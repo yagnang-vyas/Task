@@ -1,0 +1,93 @@
+.hero {
+  background-image: url("../../../../public/images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+.hero .container {
+  padding-top: 15%;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 60px;
+}
+.hero p {
+  color: #fff;
+  opacity: 0.8;
+}
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+form input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+form span {
+  font-size: 14px;
+  color: grey;
+}
+input::placeholder {
+  font-size: 17px;
+  color: black;
+}
+form .box {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+form .box:nth-child(1) {
+  border-left: none;
+}
+form h4 {
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .hero .container {
+    padding-top: 30%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}
+
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+input {
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  border-radius: 5px;
+}
+
+
+input:focus {
+  border-color: #007bff;
+}
